@@ -6,11 +6,17 @@ All Cube Autopilot models now come with no autopilot software installed from the
 
 ### Supported Ardupilot Versions
 
-The Cube Black, Purple and Blue models are compatible with older versions of Ardupilot and PX4 software however the Cube Orange and Cube Yellow modes are using the STM32F7 and the STM32H7 microcontrollers that require you are using the latest drivers and software to use these models.
+The Cube Black, Purple and Blue F4* models are compatible with older versions of Ardupilot and PX4 software however the Cube Orange, Yellow and Blue H7* models are using the STM32F7 and the STM32H7 microcontrollers that require you are using the latest drivers and software to use these models.
+
+### Cube Blue H4 and H7 Firmware
+The Cube Blue was originally based on the STM32F4 with the same main FMU specification as the Cube Black. Later Cube Blue H7 and Purple H7 versions are based on the STM32H7 and have the same FMU specification as the Cube Orange. 
+
+When choosing Firmware the original Blue F4 based Cube should use Cube Black, for later Cube BlueH7 version you should use the Cube Orange version. 
+
 
 **Note** It is strongly advised to use the latest stable release of Ardupilot at all times to ensure you are uptosdate with any bug and feature updates.
 
-### Cube Black, Blue and Purple
+### Cube Black, Blue F4 and Purple
 
 These Cube models are supported in older versions of Ardupilot however its strogly advised to use Arducopter 3.6.12 or Arduplane 3.9.11 or later due to a critical I2C Storm bug fixes.
 
